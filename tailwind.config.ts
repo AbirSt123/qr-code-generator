@@ -8,6 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xxs: "300px",
+        mds: "950px",
+      },
+      lineHeight: {
+        "extra-loose": "2.5",
+      },
+      width: {
+        "88": "22rem",
+      },
+      minWidth: {
+        "88": "21rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -19,6 +32,9 @@ const config: Config = {
       },
       textColor: {
         "main-orange": "#FB8500",
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
       },
     },
   },
